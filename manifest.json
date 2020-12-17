@@ -1,0 +1,15 @@
+{
+  "name": "PoE Web Character Search",
+  "version": "1.0",
+  "description": "Extension to sort characters by League, Ascendancy and Name",
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": [
+        "https://www.pathofexile.com/account/view-profile/*/characters"
+      ],
+      "js": ["poe.js"]
+    }
+  ],
+  "manifest_version": 2
+}
