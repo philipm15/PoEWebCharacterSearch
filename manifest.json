@@ -11,5 +11,8 @@
       "js": ["poe.js"]
     }
   ],
+  "browser_action": {
+    "default_icon": "Albino_Rhoa_Feather.png"
+  },
   "manifest_version": 2
 }
